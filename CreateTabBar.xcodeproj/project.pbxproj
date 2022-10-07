@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0931264C28483FCD00F3CCBE /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931264B28483FCD00F3CCBE /* CustomTabBar.swift */; };
 		0985F671284769DB00DE815A /* CreateTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985F670284769DB00DE815A /* CreateTabBarApp.swift */; };
 		0985F673284769DB00DE815A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985F672284769DB00DE815A /* ContentView.swift */; };
 		0985F675284769DD00DE815A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0985F674284769DD00DE815A /* Assets.xcassets */; };
 		0985F678284769DD00DE815A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0985F677284769DD00DE815A /* Preview Assets.xcassets */; };
+		0985F68028476C7900DE815A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985F67F28476C7900DE815A /* Tab.swift */; };
+		0985F68228476FF400DE815A /* CustomTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985F68128476FF400DE815A /* CustomTabBarApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0931264B28483FCD00F3CCBE /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		0985F66D284769DB00DE815A /* CreateTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0985F670284769DB00DE815A /* CreateTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTabBarApp.swift; sourceTree = "<group>"; };
 		0985F672284769DB00DE815A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0985F674284769DD00DE815A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0985F677284769DD00DE815A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0985F67F28476C7900DE815A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		0985F68128476FF400DE815A /* CustomTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0931264A28483F9200F3CCBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0931264B28483FCD00F3CCBE /* CustomTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0985F664284769DB00DE815A = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				0985F670284769DB00DE815A /* CreateTabBarApp.swift */,
+				0985F67E28476C6F00DE815A /* Model */,
+				0931264A28483F9200F3CCBE /* View */,
 				0985F672284769DB00DE815A /* ContentView.swift */,
+				0985F68128476FF400DE815A /* CustomTabBarApp.swift */,
 				0985F674284769DD00DE815A /* Assets.xcassets */,
 				0985F676284769DD00DE815A /* Preview Content */,
 			);
@@ -65,6 +82,14 @@
 				0985F677284769DD00DE815A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0985F67E28476C6F00DE815A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0985F67F28476C7900DE815A /* Tab.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0985F68028476C7900DE815A /* Tab.swift in Sources */,
+				0931264C28483FCD00F3CCBE /* CustomTabBar.swift in Sources */,
 				0985F673284769DB00DE815A /* ContentView.swift in Sources */,
+				0985F68228476FF400DE815A /* CustomTabBarApp.swift in Sources */,
 				0985F671284769DB00DE815A /* CreateTabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CreateTabBar/Preview Content\"";
-				DEVELOPMENT_TEAM = XT4M7K9K7P;
+				DEVELOPMENT_TEAM = 74YS48ZLZ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,7 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CreateTabBar/Preview Content\"";
-				DEVELOPMENT_TEAM = XT4M7K9K7P;
+				DEVELOPMENT_TEAM = 74YS48ZLZ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
